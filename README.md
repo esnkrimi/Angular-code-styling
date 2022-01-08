@@ -56,6 +56,13 @@ D - Finally open package.json and add theselines
         "git add"
       ]
     }
-```     
+```  
+Here we have a hook that runs before commit. lint-staged executes commands line by line, but here only files with js and json extensions are checked, which you can add if you have files with other extensions that you want to check.<br>
+<b>To ignore some files</b> and folders, such as node_modules, you must create ignore files for each one and enter the name of the file or folder in them as follows:<br>
+create .eslintignore & .prettierignore in root project folder
+and add folder name that you want ignore code style checking<br>
+as instance you can add node_modules to ignore checking
 
-Now you can change any thing in .ts files and see Eslint fix your styling code to standard formattingon save .
+
+
+E - Now you can change any thing in .ts files and see Eslint fix your styling code to standard formattingon save .
