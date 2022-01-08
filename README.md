@@ -6,7 +6,7 @@ A - First of all,install dependencies:
     npm i eslint eslint-config-prettier eslint-plugin-prettier husky lint-staged prettier -D
 ```    
     
-B - Now create two files in project root and rename those to .eslintrc.js,.prettierrc.js,
+B - Now create two files in project root and rename those to .eslintrc.js  &  .prettierrc.js,
 
 copy this code in .eslintrc.js
 ```swift
