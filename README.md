@@ -63,4 +63,4 @@ create .eslintignore & .prettierignore in root project folder
 and add folder name that you want ignore code style checking<br>
 as instance you can add node_modules to ignore checking
 
-<b>E</b> - Now you can change any thing in .TST,HTML,SASS,CSS,SCSS files and see Eslint fix your styling code to standard formattingon save .
+<b>E</b> - Now you can change any thing in .TST,HTML,SASS,CSS,SCSS files and see Eslint fix your styling code to standard formatting on save .
