@@ -51,7 +51,7 @@ copy this code in setings.json
     },
     "lint-staged": {
       "**/*.{js,json,sacc,scss,css,html,ts}": [
-         "eslint --fix ./",
+        "eslint --fix ./",
         "prettier --write",
         "git add"
       ]
