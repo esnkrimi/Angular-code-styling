@@ -1,4 +1,4 @@
-# codeStyling
+# codeStyling 
 You can set visual studio code to fix your code styling according to Eslint on save ,
 
 A - First of all,install dependencies:
@@ -66,3 +66,5 @@ as instance you can add node_modules to ignore checking
 
 
 E - Now you can change any thing in .ts files and see Eslint fix your styling code to standard formattingon save .
+
+# Eslint # prettier #visual code code styling
