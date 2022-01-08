@@ -1,12 +1,12 @@
 # codeStyling # Eslint # prettier #visual code code styling
 You can set visual studio code to fix your code styling according to Eslint on save ,
 
-A - First of all,install dependencies:
+<b>A </b>- First of all,install dependencies:
 ```swift
     npm i eslint eslint-config-prettier eslint-plugin-prettier husky lint-staged prettier -D
 ```    
     
-B - Now create two files in project root and rename those to .eslintrc.js  &  .prettierrc.js,
+<b>B</b> - Now create two files in project root and rename those to .eslintrc.js  &  .prettierrc.js,
 
 copy this code in .eslintrc.js
 ```swift
@@ -35,14 +35,14 @@ copy this code in .prettierrc.js
         useTabs: true
     }
 ```  
-C - Now you should say to Visual Studio Code to fix wrong styles on save or paste.Open setting.json
+<b>C </b>- Now you should say to Visual Studio Code to fix wrong styles on save or paste.Open setting.json
 (files>preference>setting>text editor>font>edit in settings.json)
 copy this code in setings.json
 ```swift
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true
 ```      
-D - Finally open package.json and add theselines 
+<b>D </b>- Finally open package.json and add theselines 
 ```swift
     "husky": {
       "hooks": {
@@ -50,7 +50,7 @@ D - Finally open package.json and add theselines
       }
     },
     "lint-staged": {
-      "**/*.{js,json}": [
+      "**/*.{js,json,sacc,scss,css,html}": [
                 "eslint --fix ./",
         "prettier --write",
         "git add"
@@ -63,6 +63,4 @@ create .eslintignore & .prettierignore in root project folder
 and add folder name that you want ignore code style checking<br>
 as instance you can add node_modules to ignore checking
 
-
-
-E - Now you can change any thing in .ts files and see Eslint fix your styling code to standard formattingon save .
+<b>E</b> - Now you can change any thing in .TST,HTML,SASS,CSS,SCSS files and see Eslint fix your styling code to standard formattingon save .
